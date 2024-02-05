@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="calculator">
+      <input type="text" id="display" disabled />
+      <button onclick="appendNumber('7')" id="seven">7</button>
+      <button onclick="appendNumber('8')" id="eight">8</button>
+      <button onclick="appendNumber('9')" id="nine">9</button>
+      <button onclick="appendOperator('+')" id="add">+</button>
+      <button onclick="appendNumber('4')" id="four">4</button>
+      <button onclick="appendNumber('5')" id="five">5</button>
+      <button onclick="appendNumber('6')" id="six">6</button>
+      <button onclick="appendOperator('-')" id="subtract">-</button>
+      <button onclick="appendNumber('1')" id="one">1</button>
+      <button onclick="appendNumber('2')" id="two">2</button>
+      <button onclick="appendNumber('3')" id="three">3</button>
+      <button onclick="appendOperator('*')" id="multiply">*</button>
+      <button onclick="appendNumber('0')" id="zero">0</button>
+      <button onclick="clearDisplay()" id="clear">C</button>
+      <button onclick="calculate()" id="equals">=</button>
+      <button onclick="appendOperator('/')" id="divide">/</button>
+      <button onclick="appendOperator('.')" id="decimal">.</button>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </body>
+</html>
